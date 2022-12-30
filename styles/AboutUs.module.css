@@ -1,0 +1,50 @@
+.wrapper{
+    background-color: #fff;
+}
+
+.text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family:cursive;
+}
+
+.image{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 500px;
+}
+.desc{
+    text-align: justify;
+    font-family: cursive;
+}
+
+.box1{
+   width: 500px;
+   height: 400px;
+   padding: 2rem;
+   position: absolute;
+   bottom: -150px;
+   left: 250px;
+   top:550px;
+}
+
+.box2{
+   width:500px;
+   height:400px;
+   position: absolute;
+   padding: 2rem;
+   bottom: -150px;
+   right: 200px;
+   top:550px;
+ }
+
+ .p1{
+    font-family: cursive;
+ }
+
+ .aboutfooter{
+    margin-top: 750px;
+    
+ }
