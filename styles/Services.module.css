@@ -1,0 +1,51 @@
+.bg1 {
+    position: relative;
+    text-align: center;
+    padding: auto;
+    }
+
+.text1{
+    font-style: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ .image{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 35%;
+    width: 35%;
+ }
+
+.bg1 p{
+    color: rgb(116, 115, 115);
+}
+
+.bg1 h5{
+    font-size:100%;
+}
+
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #000;;
+    margin: 5% auto;
+}
+.bg1 i{
+  font-size: 30px;
+  color: rgb(150, 145, 145);
+  display: inline-block;
+  background: white;
+  position: relative;
+  padding: 20px;
+  border-radius: 100px;
+  box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+  margin: 20px;
+  width: 90px;
+
+}
+
+.servicesfooter{
+    margin-top: 100px;
+}
