@@ -1,0 +1,95 @@
+.bg{
+position: relative;
+text-align: center;
+padding: auto;
+margin-left: -30px;
+}
+.how4{
+font-style: bold;
+text-align: center;
+}
+
+.form{
+margin-left: -500px;
+min-height: 50vh;
+
+}
+
+.topic{
+  font-size: 25px;
+  font-style: bold;
+  font-weight:  100px;;
+}
+.cont{  
+    max-width: 600px;
+    width: 500px;
+    display:flex;
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-right: 150px;
+    margin-top: -375px;
+    background-color: #f3f5f9;
+  }
+  
+  .cont1{  
+    max-width: 600px;
+    width: 100vw;
+    display:flex;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-right: 150px;
+    margin-top: -600px;
+  }
+  
+  .form-contact{
+    border-color: black;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-left: 800px;
+    margin-right: 150px;
+    height: 30vh;
+    margin-top: 60px;
+    display: flex;
+  }
+
+  .contact{
+ position: absolute;
+ top: 460px;
+ border:thin solid black;
+ border-width: 3px;
+ max-width: 500px;
+ display: block;
+ margin-right: 400px;
+ padding: 2rem;
+ width: 1500px;
+ left: 700px;
+  }
+
+  .form-contact .form-floating:focus-within {
+    z-index: 2;
+  }
+
+  .form-contact input[type="text"] {
+    margin-bottom: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-contact input[type="email"] {
+    margin-bottom: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-contact input[type="password"] {
+    margin-bottom: 5px;
+    height: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .form-contact input[type="message"] {
+    margin-bottom: 15px;
+    height: 7rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
