@@ -28,7 +28,7 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <Link
-              href="/"
+              href="/Components/Conditions"
             >
               CONDITIONS
             </Link>
