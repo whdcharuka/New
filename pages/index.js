@@ -6,13 +6,92 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArchive, faHeadphones, faThumbsUp, faTruck } from "@fortawesome/free-solid-svg-icons";
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer';
+import Link from 'next/link';
 
-const Services = () =>{
-    
-  return (
-    <div>
+const Wrapper = () => {
+    const data = [
+      {
+        cateImg: "./images/Categories/car.png",
+        title: "Vehical Parts",
+        path:"./Vehicalparts",
+      },
+      {
+        cateImg: "./images/Categories/smartphone (2).png",
+        title: "Electronics",
+        path:"./ElectronicDevices",
+      },
+      {
+        cateImg: "./images/Categories/house.png",
+        title: "Home & Garden",
+        path:"./HomeGarden",
+      },
+      {
+        cateImg: "./images/Categories/cat.png",
+        title: "Pets",
+        path:"./Animals",
+      },
+      {
+        cateImg: "./images/Categories/toys.png",
+        title: "Toys",
+        path:"/Toys",
+      },
+      {
+        cateImg: "./images/Categories/sports.png",
+        title: "Hobby & Sport",
+        path:"./HobbySport",
+      },
+      {
+        cateImg: "./images/Categories/burger.png",
+        title: "Food",
+        path:"./Foods",
+      },
+      {
+        cateImg: "./images/Categories/education.png",
+        title: "Education",
+        path:"./Education",
+      },
+      {
+        cateImg: "./images/Categories/essential-oil.png",
+        title: "Essentials",
+        path:"./Essentials",
+      },
+      {
+        cateImg: "./images/Categories/dress.png",
+        title: "Fashion & Beauty",
+        path:"./FashionBeauty",
+      },
+      {
+        cateImg: "./images/Categories/giftbox.png",
+        title: "Gifts",
+        path:"./Gifts",
+      },
+      {
+        cateImg: "./images/Categories/guitar.png",
+        title: "Music",
+        path:"./Music",
+      },
+    ]
+    return (
+      <>
+<Navbar/>
+<section className='wrapper123 wbackground123'>
+        <h1 className="how1">Browse items by category</h1>
+          <div className='wcontainer grid5'>
+            {data.map((val, index) => {
+              return (
+                <div key={index}>
+                  <Link href={val.path}></Link>
+                  <div className="category1">
+                   <img src={val.cateImg} alt='' />
+                  </div>
+                  <span>{val.title}</span>
+                </div>
+              )
+            })}
+          </div>
+        </section>
+<div>
         <Head><title>Terms & Conditions</title></Head>
-        <Navbar/>
     <section className={styles.bg1}>
    
         <h1 className={styles.text1}>How it works?</h1>
@@ -68,7 +147,8 @@ const Services = () =>{
         <Footer/>
       </div>
     </div>
-  )   
+      </>
+    )
   }
   
-  export default Services
+  export default Wrapper
