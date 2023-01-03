@@ -13,78 +13,78 @@ const Wrapper = () => {
       {
         cateImg: "./images/Categories/car.png",
         title: "Vehical Parts",
-        path:"./Vehicalparts",
+        path:"./Components/Vehicalparts",
       },
       {
         cateImg: "./images/Categories/smartphone (2).png",
         title: "Electronics",
-        path:"./ElectronicDevices",
+        path:"./Components/Electronics",
       },
       {
         cateImg: "./images/Categories/house.png",
         title: "Home & Garden",
-        path:"./HomeGarden",
+        path:"./Components/HomeGarden",
       },
       {
         cateImg: "./images/Categories/cat.png",
         title: "Pets",
-        path:"./Animals",
+        path:"./Components/Animals",
       },
       {
         cateImg: "./images/Categories/toys.png",
         title: "Toys",
-        path:"/Toys",
+        path:"/Components/Toys",
       },
       {
         cateImg: "./images/Categories/sports.png",
         title: "Hobby & Sport",
-        path:"./HobbySport",
+        path:"./Components/HobbySport",
       },
       {
         cateImg: "./images/Categories/burger.png",
         title: "Food",
-        path:"./Foods",
+        path:"./Components/Foods",
       },
       {
         cateImg: "./images/Categories/education.png",
         title: "Education",
-        path:"./Education",
+        path:"./Components/Education",
       },
       {
         cateImg: "./images/Categories/essential-oil.png",
         title: "Essentials",
-        path:"./Essentials",
+        path:"./Components/Essentials",
       },
       {
         cateImg: "./images/Categories/dress.png",
         title: "Fashion & Beauty",
-        path:"./FashionBeauty",
+        path:"./Components/FashionBeauty",
       },
       {
         cateImg: "./images/Categories/giftbox.png",
         title: "Gifts",
-        path:"./Gifts",
+        path:"./Components/Gifts",
       },
       {
         cateImg: "./images/Categories/guitar.png",
         title: "Music",
-        path:"./Music",
+        path:"./Components/Music",
       },
     ]
     return (
       <>
 <Navbar/>
 <section className='wrapper123 wbackground123'>
-        <h1 className="how1">Browse items by category</h1>
+        <h2 className="how1">Browse items by category</h2>
           <div className='wcontainer grid5'>
             {data.map((val, index) => {
               return (
                 <div key={index}>
-                  <Link href={val.path}></Link>
+                  <Link className="link" href={val.path}>
                   <div className="category1">
                    <img src={val.cateImg} alt='' />
                   </div>
-                  <span>{val.title}</span>
+                  <span>{val.title}</span></Link>
                 </div>
               )
             })}
@@ -94,7 +94,7 @@ const Wrapper = () => {
         <Head><title>Terms & Conditions</title></Head>
     <section className={styles.bg1}>
    
-        <h1 className={styles.text1}>How it works?</h1>
+        <h3 className={styles.text1}>How it works?</h3>
     
    
         <div className='container'>
