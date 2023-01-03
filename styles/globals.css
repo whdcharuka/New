@@ -249,8 +249,8 @@
 }
 
 .fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 5rem;
+  color: rgb(255, 255, 255);
 }
 
 .nav-menu {
@@ -824,4 +824,9 @@
     grid-gap: 10px;
     margin-left: 60px;
     margin-top: -700px;
+  }
+
+  .link{
+    text-decoration: none;
+    color: #000;
   }
