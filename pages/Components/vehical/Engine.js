@@ -7,7 +7,7 @@ import { faArchive, faHeadphones, faThumbsUp, faTruck } from "@fortawesome/free-
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer';
 import Link from 'next/link';
-import Categories from "../../Categories"
+import Categories from "../Categories"
 import SliderHome from "./Slider"
 import VpCategories from "./VpCategories"
 
@@ -15,7 +15,7 @@ const Wrapper = () => {
     const data = [
       {
         path:"./Vp1",
-        cateImg: "./images/vehicalparts/5.jpg",
+        cateImg: "/images/vehicalparts/5.jpg",
         title: "Horn ",
         brand:"Apple",
         model:"single",
@@ -25,7 +25,7 @@ const Wrapper = () => {
       },
       {
         path:"./Vp2",
-        cateImg: "./images/vehicalparts/6.jpg",
+        cateImg: "/images/vehicalparts/6.jpg",
         title: "Air filter ",
         brand:"Apple",
         model:"single",
@@ -35,7 +35,7 @@ const Wrapper = () => {
       },
       {
         path:"./Vp3",
-        cateImg: "./images/vehicalparts/7.jpg",
+        cateImg: "/images/vehicalparts/7.jpg",
         title: "Fuel filter ",
         brand:"Apple",
         model:"single",
@@ -45,7 +45,7 @@ const Wrapper = () => {
       },
       {
         path:"./Vp4",
-        cateImg: "./images/vehicalparts/8.jpg",
+        cateImg: "/images/vehicalparts/8.jpg",
         title: "Oil filter ",
         brand:"Apple",
         model:"single",
