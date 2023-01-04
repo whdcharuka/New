@@ -7,79 +7,22 @@ import { faArchive, faHeadphones, faThumbsUp, faTruck } from "@fortawesome/free-
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer';
 import Link from 'next/link';
+import Categories from "../Categories"
+import SliderHome from "./Slider"
 
-const Wrapper = () => {
-    const data = [
-      {
-        path:"./Vp1",
-        cateImg: "./images/vehicalparts/5.jpg",
-        title: "Horn ",
-        brand:"Apple",
-        model:"single",
-        decs: "You can use decorate your table Table suitable",
-        phone:"021548936",
-        email:"ergset@gmail.com",
-      },
-      {
-        path:"./Vp2",
-        cateImg: "./images/vehicalparts/6.jpg",
-        title: "Air filter ",
-        brand:"Apple",
-        model:"single",
-        decs: "You can use decorate your table Table suitable",
-        phone:"021548936",
-        email:"ergset@gmail.com",
-      },
-      {
-        path:"./Vp3",
-        cateImg: "./images/vehicalparts/7.jpg",
-        title: "Fuel filter ",
-        brand:"Apple",
-        model:"single",
-        decs: "You can use decorate your table Table suitable",
-        phone:"021548936",
-        email:"ergset@gmail.com",
-      },
-      {
-        path:"./Vp4",
-        cateImg: "./images/vehicalparts/8.jpg",
-        title: "Oil filter ",
-        brand:"Apple",
-        model:"single",
-        decs: "You can use decorate your table Table suitable",
-        phone:"021548936",
-        email:"ergset@gmail.com",
-      },
-    ]
-    return (
-      <>
-      <Navbar/>
-      <h1 className='qwe3'>Battery Items</h1>
-        {/* <VpCategories/> */}
-        <section className='wrapper wbackground'>
-          <div className='wcontainer1 grid9'>
-            {data.map((val, index) => {
-              return (
-                <div className='vpproduct' key={index}>
-                  <div>
-                  <img src={val.cateImg} alt='' />
-                  </div>
-                  <h2>{val.title}</h2>
-                  <p>{val.brand}</p>
-                  <p>{val.model}</p>
-                  <p>{val.decs}</p>
-                  <p>Whatsapp : {val.phone}</p>
-                  <p>{val.email}</p>
-                  <p><link rel = "canonical" href = "https://www.javatpoint.com/"  />    
-                     <Link href={val.phone}><button className='btn--medium'>CONTACT</button></Link></p>
-                </div>
-              ) 
-            })}
-          </div>
-        </section> 
-        <Footer/>
-      </>
-    )
-  }
-  
-  export default Wrapper
+const Home = () => {
+  return (
+    <>
+    <Navbar/>
+      <section className='home'>
+      <Categories />
+        <div className='container d_flex'>
+          <SliderHome />
+        </div>
+      </section>
+      <Footer/>
+    </>
+  )
+}
+
+export default Home
