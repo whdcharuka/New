@@ -13,62 +13,62 @@ const Wrapper = () => {
       {
         cateImg: "./images/Categories/car.png",
         title: "Vehical Parts",
-        path:"./Components/Vehicalparts",
+        path:"./Components/vehical/Vehicalparts",
       },
       {
         cateImg: "./images/Categories/smartphone (2).png",
         title: "Electronics",
-        path:"./Components/Electronics",
+        path:"./Components/elec/Electronics",
       },
       {
         cateImg: "./images/Categories/house.png",
         title: "Home & Garden",
-        path:"./Components/HomeGarden",
+        path:"./Components/home/HomeGarden",
       },
       {
         cateImg: "./images/Categories/cat.png",
         title: "Pets",
-        path:"./Components/Animals",
+        path:"./Components/animal/Animals",
       },
       {
         cateImg: "./images/Categories/toys.png",
         title: "Toys",
-        path:"/Components/Toys",
+        path:"/Components/toy/Toys",
       },
       {
         cateImg: "./images/Categories/sports.png",
         title: "Hobby & Sport",
-        path:"./Components/HobbySport",
+        path:"./Components/hobby/HobbySport",
       },
       {
         cateImg: "./images/Categories/burger.png",
         title: "Food",
-        path:"./Components/Foods",
+        path:"./Components/food/Foods",
       },
       {
         cateImg: "./images/Categories/education.png",
         title: "Education",
-        path:"./Components/Education",
+        path:"./Components/edu/Education",
       },
       {
         cateImg: "./images/Categories/essential-oil.png",
         title: "Essentials",
-        path:"./Components/Essentials",
+        path:"./Components/essen/Essentials",
       },
       {
         cateImg: "./images/Categories/dress.png",
         title: "Fashion & Beauty",
-        path:"./Components/FashionBeauty",
+        path:"./Components/fashion/FashionBeauty",
       },
       {
         cateImg: "./images/Categories/giftbox.png",
         title: "Gifts",
-        path:"./Components/Gifts",
+        path:"./Components/gift/Gifts",
       },
       {
         cateImg: "./images/Categories/guitar.png",
         title: "Music",
-        path:"./Components/Music",
+        path:"./Components/music/Music",
       },
     ]
     return (
