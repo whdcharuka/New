@@ -15,7 +15,7 @@ const Wrapper = () => {
     const data = [
       {
         path:"./Vp1",
-        cateImg: "/images/vehicalparts/5.jpg",
+        cateImg: "/images/vehicalparts/1.jpg",
         title: "Horn ",
         brand:"Apple",
         model:"single",
@@ -25,7 +25,7 @@ const Wrapper = () => {
       },
       {
         path:"./Vp2",
-        cateImg: "/images/vehicalparts/6.jpg",
+        cateImg: "/images/vehicalparts/2.jpg",
         title: "Air filter ",
         brand:"Apple",
         model:"single",
@@ -35,7 +35,7 @@ const Wrapper = () => {
       },
       {
         path:"./Vp3",
-        cateImg: "/images/vehicalparts/7.jpg",
+        cateImg: "/images/vehicalparts/3.jpg",
         title: "Fuel filter ",
         brand:"Apple",
         model:"single",
@@ -43,24 +43,25 @@ const Wrapper = () => {
         phone:"021548936",
         email:"ergset@gmail.com",
       },
-      {
-        path:"./Vp4",
-        cateImg: "/images/vehicalparts/8.jpg",
-        title: "Oil filter ",
-        brand:"Apple",
-        model:"single",
-        decs: "You can use decorate your table Table suitable",
-        phone:"021548936",
-        email:"ergset@gmail.com",
-      },
+      // {
+      //   path:"./Vp4",
+      //   cateImg: "/images/vehicalparts/8.jpg",
+      //   title: "Oil filter ",
+      //   brand:"Apple",
+      //   model:"single",
+      //   decs: "You can use decorate your table Table suitable",
+      //   phone:"021548936",
+      //   email:"ergset@gmail.com",
+      // },
     ]
     return (
       <>
       <Navbar/>
-      <h1 className='qwe3'>Battery Items</h1>
+      <h1 className='qwe3'>Engine Items</h1>
+      <Categories/>
         <VpCategories/>
         <section className='wrapper wbackground'>
-          <div className='wcontainer1 grid9'>
+          <div className='wcontainer1 grid9'>  
             {data.map((val, index) => {
               return (
                 <div className='vpproduct' key={index}>
