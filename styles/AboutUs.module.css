@@ -6,7 +6,6 @@
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
-    font-family:cursive;
 }
 
 .image{
@@ -17,7 +16,6 @@
 }
 .desc{
     text-align: justify;
-    font-family: cursive;
 }
 
 .box1{
@@ -38,10 +36,6 @@
    bottom: -150px;
    right: 200px;
    top:550px;
- }
-
- .p1{
-    font-family: cursive;
  }
 
  .aboutfooter{
