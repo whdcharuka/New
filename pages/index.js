@@ -91,7 +91,7 @@ const Wrapper = () => {
           </div>
         </section>
 <div>
-        <Head><title>Terms & Conditions</title></Head>
+        <Head><title>Discover</title></Head>
     <section className={styles.bg1}>
    
         <h3 className={styles.text1}>How it works?</h3>
