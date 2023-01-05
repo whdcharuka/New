@@ -14,7 +14,19 @@
   display:flex;
   border-radius: 10px; 
   text-align: center;
-  margin-left: 80px;
+  margin-left: 70px;
+  margin-right: 275px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+  
+}
+
+.register1{
+  max-width: 978px;
+  width: 100vw;
+  display:flex;
+  border-radius: 10px; 
+  text-align: center;
   margin-right: 275px;
   margin-top: 70px;
   margin-bottom: 80px;
@@ -69,6 +81,7 @@
 .d{
   justify-content: center;
   border-radius: 10px;
+  height: 50px;
 }
 
 .e{
@@ -771,6 +784,7 @@
     box-shadow: rgb(3 0 71 / 30%) 0px 1px 3px;
     margin: 20px;
     height: 600px;
+    margin-top: -620px;
   }
   
   .vpproduct1 {
@@ -1168,6 +1182,7 @@ margin: 15px;
 text-transform: capitalize;
 margin-top: 12px;
 font-size: 15px;
+text-decoration: none;
 }
 
 .vcategory .box {
@@ -1220,18 +1235,6 @@ color: grey;
 * > * {
     font-family: "Poppins", cursive;
     margin: 0;
-}
-
-.register{
-  max-width: 978px;
-  width: 100vw;
-  display:flex;
-  border-radius: 10px; 
-  text-align: center;
-  margin-left: 280px;
-  margin-right: 275px;
-  margin-top: 30px;
-  margin-bottom: 80px;
 }
 
 .h5{
@@ -1601,6 +1604,7 @@ color: grey;
   cursor: pointer;
   outline: none;
   border: none;
+  height: 50px;
   background-color: transparent;
   padding: 8px 20px;
   border: 1px solid var(--primary);
@@ -1690,4 +1694,25 @@ color: grey;
 .baw {
   font-size: 60px;
   font-weight: 30;
+}
+
+.cvb {
+  color: #000;
+  text-decoration: none;
+}
+
+.rty {
+  color: grey;
+  text-decoration: none;
+}
+
+.rty1 {
+  text-decoration-color: #000;
+  text-decoration: none;
+}
+
+.rty2 {
+  text-decoration-color: #000;
+  text-decoration: none;
+  margin-bottom: 20px;
 }
