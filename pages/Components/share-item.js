@@ -1,5 +1,4 @@
 import cx from 'classnames';
-import styles from '/styles/shareitems.module.css';
 import Navbar from './Navbar/Navbar';
 import Head from 'next/head';
 import Footer from './Footer';
