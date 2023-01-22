@@ -9,13 +9,15 @@ import Footer from '../Footer';
 import Link from 'next/link';
 import Categories from "../Categories"
 import SliderHome from "./Slider"
+import VpCategories from "./VpCategories"
 
 const Home = () => {
   return (
     <>
     <Navbar/>
-      <section className='home'>
+      <section className=''>
       <Categories />
+      <VpCategories />
         <div className='container d_flex'>
           <SliderHome />
         </div>
